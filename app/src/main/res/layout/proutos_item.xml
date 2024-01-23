@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/branco"
+    app:cardCornerRadius="30dp"
+    app:cardElevation="8dp"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginVertical="10dp"
+
+
+    >
+    
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/CodiGO_produto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Codigo:01"
+            android:textSize="18sp"
+            android:textColor="@color/preto"
+            android:textStyle="bold"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="20dp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imag_produto"
+                android:layout_width="180dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="20dp"
+                android:src="@drawable/ic_launcher_background"
+                android:scaleType="centerCrop"/>
+
+            <TextView
+                android:id="@+id/Nome_produto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HAMBURGUER E FRITAS"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginVertical="20dp"/>
+
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/descricao_produto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HAMBURGUER E FRITAS"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="20dp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/pRECO_produto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="R$ 52,00"
+            android:textSize="20dp"
+            android:textColor="@color/verde"
+            android:textStyle="bold"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="20dp">
+            
+        </TextView>
+            <ImageView
+                android:id="@+id/btAtualizar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/baseline_edit_note"
+                android:layout_marginVertical="20dp"
+                android:layout_marginHorizontal="50dp"/>
+<ImageView
+                android:id="@+id/btDeletar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_delete"
+                android:layout_marginVertical="20dp"
+                android:layout_marginHorizontal="50dp"/>
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:background="@color/prata"
+    tools:context=".Activitys.Activitys.Atualizar_Entrega">
+
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Atualizar Entrega"
+        android:textSize="20sp"
+         android:textColor="@color/preto"
+        android:textStyle="bold"
+        android:gravity="center"/>
+    
+    
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/branco"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="8dp"
+        android:layout_margin="20dp"
+
+
+
+        >
+
+
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="20dp"
+            >
+
+            <RadioButton
+                android:id="@+id/btEmTrasnito"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+                android:text="Em Transito"
+                android:textSize="18sp"
+                android:textColor="@color/preto"
+                android:textStyle="bold"
+                />
+
+            <RadioButton
+                android:id="@+id/btEntrgue"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:text="Entregue"
+                android:textSize="18sp"
+                android:textColor="@color/preto"
+                android:textStyle="bold"
+
+
+
+                />
+
+
+
+
+        </RadioGroup>
+
+
+
+
+
+
+    </androidx.cardview.widget.CardView>
+    
+
+
+    <Button
+        android:id="@+id/btAtualiazr_Entrega"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Atualizar"
+        android:textColor="@color/branco"
+        android:background="@drawable/caixas_redondas"
+        android:padding="15dp"
+        android:layout_margin="20dp"
+    />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

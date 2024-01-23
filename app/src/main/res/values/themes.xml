@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.AdmDelivery" parent="Theme.Design.NoActionBar">
+        <item name="colorPrimary">#000000</item> <!-- Defina a cor da ActionBar, ESSA COR DEFINI A BARAA SUPERIOR E A COR DOS BOTOES  -->
+        <item name="android:textColor">@color/preto</item>
+        <item name="colorSecondary">@color/verde</item><!--ESSA DEFINI A COR DO QUE ESCRITO DENTRO DAS CAIXAS DE TEXTO-->
+        <item name="android:statusBarColor">@color/preto</item><!--COR DA BARRA ACIMA DO NOME DO APP-->
+        <item name="colorOnSecondary">@color/branco</item> <!--MDA A COR DE ICONES DENTRO DE BOTOES -->
+        <item name="colorAccent">#1A36F1</item>
+    </style>
+
+    <style name="Theme.AdmDelivery" parent="Base.Theme.AdmDelivery" />
+</resources>

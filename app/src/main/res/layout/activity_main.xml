@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/brnaco"
+    android:layout_height="match_parent"
+    tools:context=".Activitys.Activitys.MainActivity">
+
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Administraçao"
+        android:layout_marginTop="420dp"
+        android:textColor="@color/branco"
+        android:gravity="center"
+        android:textSize="35dp"
+        android:textStyle="bold"/>
+
+
+
+
+
+    <EditText
+        android:id="@+id/AdmEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:textSize="16sp"
+        android:textColor="@color/preto"
+        android:textColorHint="@color/azul"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:padding="20dp"
+        android:background="@color/branco"/>
+
+
+    <EditText
+        android:id="@+id/AdmSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Senha"
+        android:textSize="16sp"
+        android:textColor="@color/preto"
+        android:textColorHint="@color/azul"
+        android:inputType="numberPassword"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="20dp"
+        android:padding="20dp"
+        android:background="@color/branco"/>
+
+
+
+
+    <Button
+        android:id="@+id/btEntrar"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Fazer Login"
+        android:textColor="@color/preto"
+        android:textAllCaps="false"
+        android:background="@drawable/caixas_redondas"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

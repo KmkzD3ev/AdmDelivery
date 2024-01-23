@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.AdmDelivery" parent="Theme.Design.NoActionBar">
+        <item name="colorPrimary">@color/azulMercado</item> <!-- Defina a cor da ActionBar -->
+        <item name="android:textColor">@color/preto</item>
+         <item name="colorSecondary">@color/azul</item>
+        <item name="colorAccent">#2254EA</item>
+        <item name="android:statusBarColor">@color/branco</item> <!-- Customize your dark theme here. -->
+       <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    </style>
+</resources>
